@@ -247,6 +247,7 @@ namespace LoneDev
                     // UnityEngine.Debug.Log("Sent heartbeat to Wakapi");
                     s_LastHeartbeat = result.data;
                 }
+                www.Dispose();
             }));
         }
 
